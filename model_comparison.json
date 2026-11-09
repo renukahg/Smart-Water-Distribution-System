@@ -1,0 +1,26 @@
+{
+    "Hybrid CNN-LSTM (SOTA)": {
+        "Accuracy": 0.998,
+        "Precision": 0.9933554817275747,
+        "Recall": 0.9966666666666667,
+        "F1-Score": 0.9950083194675541,
+        "Category": "Best",
+        "Explanation": "Hybrid Spatial-Temporal architecture optimized for high-precision sensor anomaly detection. Leverages deep spatial filters."
+    },
+    "LSTM (Temporal)": {
+        "Accuracy": 0.987,
+        "Precision": 0.9856,
+        "Recall": 0.9882,
+        "F1-Score": 0.9869,
+        "Category": "Good",
+        "Explanation": "Temporal architecture utilizing LSTM memory cells for multi-feature monitoring."
+    },
+    "Random Forest (Baseline)": {
+        "Accuracy": 0.972,
+        "Precision": 0.968,
+        "Recall": 0.975,
+        "F1-Score": 0.9715,
+        "Category": "Standard",
+        "Explanation": "Ensemble baseline for tabular feature correlation. Significantly outperformed by spatial-temporal architectures."
+    }
+}
